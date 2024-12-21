@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials</title>
+    <script src="https://kit.fontawesome.com/4c0f22851f.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="logo.png" >
+    <link rel="stylesheet" href="test.css">
+    <!-- *******  Font Awesome Icons Link  ******* -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+ <!-- *******  Owl Carousel Links  ******* -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+</head>
+<body>
+    <!--header section-->
+    <header>
+		<div id="navbar">
+            <img id="logo" src="logo.png" alt="logo">
+            <nav>
+                <ul>
+                    <li><a href="../home/home.html">Home</a></li>
+                    <li><a href="../home/home.html#about">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="#">Categories</a><i class="fa-solid fa-chevron-down"></i>
+                        <div class="options">
+                            <a href="../skin/skincare.html" target="_blank">Skincare</a>
+                            <a href="../makeup/makeup.html" target="_blank">Makeup</a>
+                            <a href="../hair/haircare.html" target="_blank">Hair care</a>
+                            <a href="../perfume/perfume.html" target="_blank">Perfume</a>
+                            <a href="../acc/accessories.html" target="_blank">Accessories</a>
+                            <a href="../clothes/clothes.html" target="_blank">Clothes</a>
+                            <a href="../hijab/hijab.html" target="_blank">Hijab</a>
+                        </div>
+                    </li>
+                    <li><a href="../contact/contactus.html">Contact Us</a></li>
+                    <li><a href="../checkout/checkout.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <li><a href="../register/login.html" ><i class="fa-solid fa-user"></i></a></li>
+                    <li><a href="../reviews/test.html" ><i class="fa-solid fa-star"></i></a></li>
+                    <li id="theme-toggle"><button id="theme-toggle"> <i class="fa-solid fa-moon"></i></button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <h2>Blog Categories</h2>
+        <div class="blog-container">
+            <div class="blog-card">
+                <img src="skn.jpg" alt="Skincare">
+                <h3>Essential Skincare Routine</h3>
+                <p>Learn the essential steps for glowing skin.</p>
+                <div class="btn"><a href="redmore1.html#Skincare"><button class="shop">Read More</button></a></div>
+
+            </div>
+            <div class="blog-card">
+                <img src="mk1.jpg" alt="Makeup">
+                <h3>Makeup Tips for All Occasions</h3>
+                <p>Perfect your makeup look with these tips.</p>
+                <div class="btn"><a href="redmore1.html#Makeup"><button class="shop">Read More</button></a></div>
+
+            </div>
+            <div class="blog-card">
+                <img src="hair.jpg" alt="Hair Care">
+                <h3>Healthy Hair Care Tips</h3>
+                <p>Follow these tips for strong and shiny hair.</p>
+                <div class="btn"><a href="redmore1.html#Hair"><button class="shop">Read More</button></a></div>
+            </div>
+            <div class="blog-card">
+                <img src="perf.jpg" alt="Perfume">
+                <h3>Best Perfumes for Every Mood</h3>
+                <p>Choose the best perfume to match your style.</p>
+                <div class="btn"><a href="redmore1.html#Perfumes"><button class="shop">Read More</button></a></div>
+            </div>
+            <div class="blog-card">
+                <img src="web.jpg" alt="Accessories">
+                <h3>Must-Have Accessories</h3>
+                <p>Complete your look with the latest accessories.</p>
+                <div class="btn"><a href="redmore1.html#Accessories"><button class="shop">Read More</button></a></div>
+            </div>
+            <div class="blog-card">
+                <img src="clo.jpg" alt="Clothes">
+                <h3>Fashion Trends</h3>
+                <p> on top of the latest fashion trends.</p>
+                <div class="btn"><a href="redmore1.html#Clothes"><button class="shop">Read More</button></a></div>
+            </div>
+            <div class="blog-card">
+                <img src="hij.jpg" alt="Hijabs">
+                <h3>Stylish Hijabs</h3>
+                <p>Find the perfect hijab for any occasion.</p>
+                <div class="btn"><a href="redmore1.html#Hijabs"><button class="shop">Read More</button></a></div>
+              
+            </div>
+        </div>
+    </section>
+ <!-- Rating Section -->
+ <section id="rating">
+    <h2>Rate Our Blog Categories</h2>
+    <div class="rating">
+        <span class="star" data-rating="1">&#9733;</span>
+        <span class="star" data-rating="2">&#9733;</span>
+        <span class="star" data-rating="3">&#9733;</span>
+        <span class="star" data-rating="4">&#9733;</span>
+        <span class="star" data-rating="5">&#9733;</span>
+    </div>
+    <p id="rating-feedback"></p>
+</section>
+<script src="test.js"></script>
+
+
+
+
+
+<div class="testimonials-section">
+	
+	<!-- Section Header Starts -->
+	<header class="section-header">
+		<h1>What Clients Say</h1>
+	</header>
+	<!-- Section Header Ends -->
+
+	<!-- Owl Carousel Slider Starts -->
+	<div class="owl-carousel owl-theme testimonials-container">
+		<!-- Item1 Starts -->
+    	<div class="item testimonial-card">
+    		<main class="test-card-body">
+    			<div class="quote">
+    				<i class="fa fa-quote-left"></i>
+    				<h2>Awesome Website</h2>
+    			</div>
+    			<p>“High-quality products with excellent service. I appreciated how quickly my order was processed and delivered. I’ll be recommending this site to my friends.”</p>
+    			<div class="ratings">
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    			</div>
+    		</main>
+    		<div class="profile">
+    			<div class="profile-image">
+    				<img src="image1.jpg">
+    			</div>
+    			<div class="profile-desc">
+    				<span>Mohammed Al-Rashed</span>
+    				<span>Riyadh, Saudi Arabia</span>
+    			</div>
+    		</div>
+    	</div>
+    	<!-- Item1 Ends -->
+
+    	<!-- Item2 Starts -->
+    	<div class="item testimonial-card">
+    		<main class="test-card-body">
+    			<div class="quote">
+    				<i class="fa fa-quote-left"></i>
+    				<h2>Awesome Website</h2>
+    			</div>
+    			<p>“Fantastic experience! The product arrived on time and was exactly as described. The customer service team was also very responsive.”
+          </p>
+    			<div class="ratings">
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    			</div>
+    		</main>
+    		<div class="profile">
+    			<div class="profile-image">
+    				<img src="image2.jpg">
+    			</div>
+    			<div class="profile-desc">
+    				<span>Liam O’Connor</span>
+    				<span>Dublin, Ireland</span>
+    			</div>
+    		</div>
+    	</div>
+    	<!-- Item2 Ends -->
+
+    	<!-- Item3 Starts -->
+    	<div class="item testimonial-card">
+    		<main class="test-card-body">
+    			<div class="quote">
+    				<i class="fa fa-quote-left"></i>
+    				<h2>Awesome Website</h2>
+    			</div>
+    			<p>“This website offers exceptional products at reasonable prices. The customer service team went above and beyond to help me with my order. Will definitely return!”</p>
+    			<div class="ratings">
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    			</div>
+    		</main>
+    		<div class="profile">
+    			<div class="profile-image">
+    				<img src="image3.jpg">
+    			</div>
+    			<div class="profile-desc">
+    				<span>Carlos Martinez</span>
+    				<span>Location: Barcelona, Spain</span>
+    			</div>
+    		</div>
+    	</div>
+    	<!-- Item3 Ends -->
+
+    	<!-- Item4 Starts -->
+    	<div class="item testimonial-card">
+    		<main class="test-card-body">
+    			<div class="quote">
+    				<i class="fa fa-quote-left"></i>
+    				<h2>Awesome Website</h2>
+    			</div>
+    			<p>“I’m impressed with the quality and attention to detail. The shipping was quick, and the packaging was secure. Highly recommended!”
+          </p>
+    			<div class="ratings">
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    			</div>
+    		</main>
+    		<div class="profile">
+    			<div class="profile-image">
+    				<img src="image4.jpg">
+    			</div>
+    			<div class="profile-desc">
+    				<span>Aisha Khan</span>
+    				<span>Location: Dubai, United Arab Emirates</span>
+    			</div>
+    		</div>
+    	</div>
+    	<!-- Item4 Ends -->
+
+    	<!-- Item5 Starts -->
+    	<div class="item testimonial-card">
+    		<main class="test-card-body">
+    			<div class="quote">
+    				<i class="fa fa-quote-left"></i>
+    				<h2>Awesome Website</h2>
+    			</div>
+    			<p>“I loved the variety of products available. Everything was well-organized, and the checkout process was seamless. Will buy again soon!”</p>
+    			<div class="ratings">
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    			</div>
+    		</main>
+    		<div class="profile">
+    			<div class="profile-image">
+    				<img src="image5.jpg">
+    			</div>
+    			<div class="profile-desc">
+    				<span>Emily Davis</span>
+    				<span>Location: Toronto, Canada</span>
+    			</div>
+    		</div>
+    	</div>
+    	<!-- Item5 Ends -->
+
+    	<!-- Item6 Starts -->
+    	<div class="item testimonial-card">
+    		<main class="test-card-body">
+    			<div class="quote">
+    				<i class="fa fa-quote-left"></i>
+    				<h2>Awesome Website</h2>
+    			</div>
+    			<p>“Amazing service! The delivery was super fast, and the product quality exceeded my expectations. I’ll definitely shop here again.”</p>
+    			<div class="ratings">
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    			</div>
+    		</main>
+    		<div class="profile">
+    			<div class="profile-image">
+    				<img src="image6.jpg">
+    			</div>
+    			<div class="profile-desc">
+    				<span>John Smith</span>
+    				<span>Location: Los Angeles, California</span>
+    			</div>
+    		</div>
+    	</div>
+    	<!-- Item6 Ends -->
+
+    </div>
+	<footer id="footer">
+		<p>Copyright &copy; This Website is owned by Team 4</p>
+	 </footer>
+	<!-- Owl Carousel Slider Ends -->
+<!--   *****   JQuery Link   *****   -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+<!--   *****   Owl Carousel js Link  *****  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<!--   *****   Link To Custom Script File   *****   -->
+<script type="text/javascript" src="Testimonials.js"></script>
+<script src="darkmode.js"></script>
+
+</div>
+</body>
+</html>
