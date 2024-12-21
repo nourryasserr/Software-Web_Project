@@ -66,7 +66,7 @@ function isValidEmail(email) {
   
     if (isValid) {
       alert('Login Successful!');
-      window.location.href = 'home.html';
+      window.location.href = '../home/home.html';
     }
   });
   
@@ -103,7 +103,7 @@ function isValidEmail(email) {
   
     if (isValid) {
       alert('Sign-up successful!');
-      window.location.href = 'home.html';
+      window.location.href = '../home/home.html';
     }
   });
   
