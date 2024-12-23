@@ -166,7 +166,7 @@ function checkout() {
   if (isValid) {
     alert(`Order Confirmed for ${name}!`);
     localStorage.removeItem('cartItems'); // Clear the cart
-    window.location.href = 'haircare.html'; // Redirect to product page
+    window.location.href = '../home/home.html'; // Redirect to product page
   } else {
     // Show an alert immediately if there are errors
     alert('Please correct the highlighted errors and try again.');
